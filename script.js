@@ -4,9 +4,6 @@ const kickoff = () => {
     const startButton = document.querySelector(".spin");
     let deg = 0;
 
-window.addEventListener('DOMContentLoaded', kickoff, false);
-
-
     startButton.addEventListener("click", () => {
         startButton.style.pointerEvents = "none";
 
@@ -30,3 +27,5 @@ window.addEventListener('DOMContentLoaded', kickoff, false);
         turnOn.classList.add("confetti-on")
     });
 };
+
+window.addEventListener('DOMContentLoaded', kickoff, false);
