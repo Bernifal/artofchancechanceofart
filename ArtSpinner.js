@@ -7,6 +7,8 @@
 
 // let confettiOff = confetti.style.display = "none";
 
+let turnOn = document.getElementsByClassName("turnon")
+
 
 (function() {
     const wheel = document.querySelector(".wheel");
@@ -32,10 +34,8 @@
         wheel.style.transform = `rotate(${actualDeg}deg)`;
 
         // let turnOn = document.querySelector(".no");
-        
-        // // confetti.style.remove("no")
-        // confetti.classList.remove("no")
-        // confetti.classList.add("yes")
+       
+        turnOn.classList.add("confetti-on")
 
     });
    })();
