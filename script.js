@@ -1,4 +1,3 @@
-
 const kickoff = () => {
     const turnOn = document.querySelector(".turnon");
     const wheel = document.querySelector(".wheel");
@@ -28,7 +27,7 @@ const kickoff = () => {
         turnOn.classList.add("confetti-on")
 
         document.getElementById("congrats").innerText = "Congratulations!! 🎉"
-        document.getElementById("body").innerText = "You've won an artwork relating to this theme. Send a screenshot to Thaïs and await your options!"
+        document.getElementById("body").innerHTML = `You've won an artwork relating to this theme. <br> Send a screenshot to Thaïs and await your options!`
     });
 };
 
