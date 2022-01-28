@@ -35,7 +35,7 @@ p {
 .spin {
     display: block;
     width: 150px;
-    margin: 40px auto;
+    margin: 30px auto;
     cursor: pointer;
     opacity: 0.7;
     transition: opacity 0.2s;
